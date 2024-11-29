@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "qaguru-15"
+version = "0.1.0"
+description = ""
+authors = ["Albina <albizuewa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.3"
+selene = "2.0.0rc9"
+selenium = "^4.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
